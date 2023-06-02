@@ -1,0 +1,1 @@
+web: gunicorn adas_legacy.wsgi --log-file -
