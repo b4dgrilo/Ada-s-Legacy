@@ -16,7 +16,10 @@
     --bege: #E6C894;
     --marrom: #462222;
     --preto: #262121;
+
 }
+
+
 
 body {
     background-color: var(--preto);
