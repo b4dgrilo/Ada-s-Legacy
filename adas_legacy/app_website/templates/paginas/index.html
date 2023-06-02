@@ -8,11 +8,10 @@
     <link rel="shortcut icon" href="./static/img/Icon Ada.png" type="image/x-icon">
     <link rel="stylesheet" href="./static/style.css">
     <script src="https://kit.fontawesome.com/cb5b6e46d1.js" crossorigin="anonymous"></script>
-   
-    <title>Ada's Legacy</title>
     <meta name="description" content="Explore um mundo de entretenimento com o melhor do cinema e das séries voltado ao público feminino. Descubra as últimas novidades, assista aos trailers, leia resenhas e mergulhe em histórias emocionantes que vão cativar sua imaginação. ">
-    <meta name="keywords" content="séries, series, filmes, animes, doramas, feminismo, mulheres, stream, trailers, resenhas">
-    <meta name="author" content="Danielle, Kauane, Barbara, Thaize">
+    <meta name="keywords" content="series, filmes, animes, doramas, feminismo, mulheres, stream, trailers, resenhas">
+    <meta name="author" content="Danielle, Kauane, Bárbara, Thaize">
+    <title>Ada's Legacy</title>
 </head>
 
 <body>
@@ -27,8 +26,8 @@
     <div id="banner">
         <video src="./static/img/background-video.mp4" autoplay loop></video>
         <div>
-            <button>Faça Login</button>
-            <button>Cadastre-se</button>
+            <a href="./login.html" target="_blank"><button>Faça Login</button></a>
+            <a href="./cadastro.html" target="_blank"><button>Cadastre-se</button></a>
         </div>
     </div>
 
@@ -68,84 +67,23 @@
             </div>
         </section>
 
-    <div class="slider">
+    <section id="carrossel-imagens">
         <!-- <h2 class="titulo-carrossel">Alguns dos filmes em catálogo</h2> -->
-      <div class="slides">
-        <!-- Radio Buttons -->
-        <input type="radio" name="radio-btn" id="radio1">
-        <input type="radio" name="radio-btn" id="radio2">
-        <input type="radio" name="radio-btn" id="radio3">
-        <input type="radio" name="radio-btn" id="radio4">
-        <input type="radio" name="radio-btn" id="radio5">
-        <input type="radio" name="radio-btn" id="radio6">
-        <input type="radio" name="radio-btn" id="radio7">
-        <!-- Fim Radio Buttons -->
-
-        <!-- Imagens Carrossel -->
-        <div class="slide first">
-            <img src="./static/img/HD-wallpaper-kill-bill-kill-bill-vol-1-uma-thurman.jpg"  alt="imagem1">
-
-        </div>
-
-        <div class="slide">
-            <img src="./static/img/brave.jpg"  alt="imagem2">
-            
-        </div>
-
-        <div class="slide">
-            <img src="./static/img/prada.jpg"  alt="imagem3">
-            
-        </div>
-
-        <div class="slide">
-            <img src="./static/img/scandal1.jpg"  alt="imagem4">
-            
-        </div>
-
-        <div class="slide">
-            <img src="./static/img/2021-2487-aruanas-2t-background.jpg""  alt="imagem5">
-            
-        </div>
-
-        <div class="slide">
-            <img src="./static/img/queen-of-the-soul-a-rainha-do-sul.jpg"  alt="imagem6">
-        </div>
-
-        <div class="slide">
-                <img src="./static/img/bom dia veronica.jpg"  alt="imagem7">
-             
-        </div>
-        <!-- Fim Imagens Carrossel -->
-
-        <!-- Navigation auto -->
-        <div class="navigation-auto"> 
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-            <div class="auto-btn5"></div>
-            <div class="auto-btn6"></div>
-            <div class="auto-btn7"></div>
-           
-        </div>
-
-      </div>    
-
-      <div class="manual-navigation">
-        <label for="radio1" class="manual-btn"></label>
-        <label for="radio2" class="manual-btn"></label>
-        <label for="radio3" class="manual-btn"></label>
-        <label for="radio4" class="manual-btn"></label>
-        <label for="radio5" class="manual-btn"></label>
-        <label for="radio6" class="manual-btn"></label>
-        <label for="radio7" class="manual-btn"></label>
-      </div> 
-
-    </div>
-    <script src="./static/script.js"></script>
-
-
-
+            <div class="filme">
+                <div class="filme-img">
+                    <img src="./static/img/oito mulheres-carrossel.jpg">
+                </div>
+                <h3>Oito mulheres e um segredo</h3>
+                    <p>Debbie Ocean, recém saída da prisão, procura sua ex-parceira Lou para realizar um elaborado assalto: roubar um colar de diamantes no valor de US$ 150 milhões. Para isso, Debbie e Lou reúnem uma equipe composta apenas por mulheres: Nine Ball, Amita, Constance, Rose e Tammy.</p>
+            </div>
+            <div class="filme">
+                <div class="filme-img">
+                    <img src="./static/img/adoraveis mulheres-carrossel.png">
+                </div>
+                <h3>Adoráveis mulheres</h3>
+                <p>As irmãs Jo, Beth, Meg e Amy amadurecem na virada da adolescência para a vida adulta enquanto os Estados Unidos atravessam a Guerra Civil. Com personalidades completamente diferentes, elas enfrentam os desafios de crescer unidas pelo amor que nutrem umas pelas outras.</p>
+            </div>
+    </section>
     <section id="sobreNos">
         <div class="sobreNos-container">
             <h2 class="titulo-sobreNos">SOBRE NÓS</h2>
@@ -194,10 +132,10 @@
 
              <div class="links">
                 <li>
-                    <ul><a href="#"><i class="fa-brands fa-linkedin"></i><span>Desenvolvedora 1</span></a></ul>
-                    <ul><a href="#"><i class="fa-brands fa-linkedin"></i><span>Desenvolvedora 1</span></a></ul>
-                    <ul><a href="#"><i class="fa-brands fa-linkedin"></i><span>Desenvolvedora 1</span></a></ul>
-                    <ul><a href="#"><i class="fa-brands fa-linkedin"></i><span>Desenvolvedora 1</span></a></ul>
+                    <ul><a href="https://www.linkedin.com/in/elle-gs/?locale=pt_BR" target="_blank"><i class="fa-brands fa-linkedin"></i><span>Desenvolvedora 1</span></a></ul>
+                    <ul><a href="https://www.linkedin.com/in/barbara-gomes-dias/" target="_blank"><i class="fa-brands fa-linkedin"></i><span>Desenvolvedora 2</span></a></ul>
+                    <ul><a href="https://www.linkedin.com/in/thaizesantana/" target="_blank"><i class="fa-brands fa-linkedin"></i><span>Desenvolvedora 3</span></a></ul>
+                    <ul><a href="https://www.linkedin.com/in/kauane-o-b18699164/" target="_blank"><i class="fa-brands fa-linkedin"></i><span>Desenvolvedora 4</span></a></ul>
                 </li>
              </div>
 
