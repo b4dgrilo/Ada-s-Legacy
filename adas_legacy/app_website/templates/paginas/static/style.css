@@ -123,7 +123,7 @@ header i {
 }
 
 .plano button {
-    background-color: #5f887d;;
+    background-color: #5f887d;
     color: var(--marrom);
     font-size: 30px;
     padding: 20px;
@@ -139,7 +139,7 @@ header i {
     opacity: 0.27;
 }
 .plano button:hover {
-    background-color: #97c59e;
+    background-color: #317;
     cursor: pointer;
     transform: scale(110%);
 }
@@ -190,11 +190,12 @@ header i {
 }
 
 .manual-btn {
-    border: 2px solid #fff;
-    padding: 5px;
+    border: 2px solid #317160;
+    padding: 4px;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.5s;
+    margin-top: 40px;
 
 }
 
@@ -235,12 +236,17 @@ header i {
     margin-left: -150%;
 }
 
+#radio8:checked ~ .first {
+    margin-left: -175%;
+}
+
 .navigation-auto div{
-    border: 2px solid #97c59e;
-    padding: 5px;
+    border: 2px solid #262121;
+    padding: 4px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
+    margin-top: 40px;
 }
 
 .navigation-auto {
@@ -281,6 +287,10 @@ header i {
 }
 
 #radio7:checked ~ .navigation-auto .auto-btn7 {
+    background-color: #fff;
+}
+
+#radio8:checked ~ .navigation-auto .auto-btn8 {
     background-color: #fff;
 }
 
